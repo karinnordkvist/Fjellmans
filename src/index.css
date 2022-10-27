@@ -1,13 +1,144 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Futura', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2 {
+  font-size: 96px;
+  line-height: 128%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 127%;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  max-width: 1480px;
+  margin: auto;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.title {
+  margin-top: 10vh;
+  transform: translateX(-50%);
+}
+
+.tel-box {
+  margin-top: 5vh;
+  transform: translateX(50%);
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  width: max-content;
+  transform: translateX(-25%);
+}
+
+.adress-box {
+  position: absolute;
+  bottom: 20vh;
+}
+
+.main-image {
+  position: absolute;
+  z-index: -1;
+  height: 75vh;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.icon {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  h1,
+  h2 {
+    font-size: 82px;
+  }
+
+  .tel-box {
+    transform: translateX(100%);
+  }
+
+  .main-image {
+    height: 50vh;
+  }
+
+  .adress-box {
+    position: absolute;
+    bottom: 16vh;
+    left: 6vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1,
+  h2 {
+    font-size: 80px;
+  }
+
+  .tel-box {
+    transform: translateX(78%);
+  }
+
+  .title {
+    margin-top: 7.5vh;
+    transform: translateX(-90%);
+  }
+}
+
+@media (max-width: 800px) {
+  h1,
+  h2 {
+    font-size: 40px;
+    line-height: 153%;
+  }
+
+  h3 {
+    font-size: 14px;
+    line-height: 119%;
+  }
+
+  .title {
+    transform: translateX(0);
+    position: absolute;
+    left: 4vh;
+    top: 14vh;
+  }
+
+  .tel-box {
+    transform: translateX(0);
+    position: absolute;
+    right: 10vh;
+    top: 40vh;
+  }
+
+  .adress-box {
+    bottom: 18vh;
+    left: 10vh;
+  }
 }
