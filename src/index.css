@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 127%;
   text-transform: uppercase;
   font-weight: 200;
@@ -40,7 +40,7 @@ main {
 
 .title {
   margin-top: 10vh;
-  transform: translateX(-50%);
+  transform: translateX(-64%);
 }
 
 .tel-box {
