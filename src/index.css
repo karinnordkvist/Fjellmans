@@ -72,6 +72,7 @@ main {
 .icon {
   position: absolute;
   bottom: 20px;
+  width: 32px;
 }
 
 @media (max-width: 1200px) {
