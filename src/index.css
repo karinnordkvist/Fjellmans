@@ -39,12 +39,12 @@ main {
 }
 
 .title {
-  margin-top: 10vh;
+  margin-top: 6vh;
   transform: translateX(-64%);
 }
 
 .tel-box {
-  margin-top: 5vh;
+  margin-top: 10vh;
   transform: translateX(50%);
   position: relative;
 }
@@ -57,7 +57,7 @@ main {
 
 .adress-box {
   position: absolute;
-  bottom: 20vh;
+  bottom: 30vh;
 }
 
 .main-image {
