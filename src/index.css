@@ -9,7 +9,7 @@ body {
 
 h1,
 h2 {
-  font-size: 96px;
+  font-size: 82px;
   line-height: 128%;
   text-transform: uppercase;
   font-weight: 400;
@@ -72,15 +72,10 @@ main {
 .icon {
   position: absolute;
   bottom: 20px;
-  width: 32px;
+  width: 38px;
 }
 
 @media (max-width: 1200px) {
-  h1,
-  h2 {
-    font-size: 82px;
-  }
-
   .tel-box {
     transform: translateX(100%);
   }
