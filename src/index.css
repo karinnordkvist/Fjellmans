@@ -57,7 +57,8 @@ main {
 
 .adress-box {
   position: absolute;
-  bottom: 30vh;
+  /* bottom: 30vh; */
+  transform: translateY(15vh);
 }
 
 .main-image {
@@ -88,6 +89,7 @@ main {
     position: absolute;
     bottom: 16vh;
     left: 6vh;
+    transform: translateY(0);
   }
 }
 
