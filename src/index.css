@@ -56,7 +56,7 @@ main {
 }
 
 .adress-box {
-  position: absolute;
+  /* position: absolute; */
   /* bottom: 30vh; */
   transform: translateY(15vh);
 }
